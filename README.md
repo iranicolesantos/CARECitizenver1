@@ -26,7 +26,7 @@ This page contains the firmware for the CARE Citizen node which measures Relativ
 
 ## Installation ESP-IDF Ver
 1. Install Espressif IDE including ESP-IDF and all dependencies.
-2. Build the code onto the launch target, esp32c3.
+2. Build the ```main.c``` code onto the launch target, esp32c3.
 3. Libraries included in the code were from:
    - Example ESP-IDF WiFi Provisioning Manager
    - Example ESP-IDF NMEA GPS Parser
