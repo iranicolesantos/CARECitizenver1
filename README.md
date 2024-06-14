@@ -6,8 +6,8 @@ CARE Citizen is a project that develops an air quality monitoring system consist
 This page contains the build instructions for the CARE Citizen node which measures Relative Humidity and Temperature (RH/T), PM2.5, PM10, and CO2. The data gathered is sent to the CARE Citizen platform which stores the data and allows it to be visualized on a dashboard with charts and maps. This project abides by the open hardware principle as such the schematic, firmware, and 3D mounting files, etc. are freely available for the public.
 
 ## Table of Contents
-- [Installation Arduino](#InstallationArduinoVer)
-- [Installation ESP-IDF](#InstallationESP-IDFVer)
+- [Installation Arduino](#installation-arduino-ver)
+- [Installation ESP-IDF](#installation-esp-idf-ver)
 
 
 ## Installation Arduino Ver
@@ -28,11 +28,11 @@ This page contains the build instructions for the CARE Citizen node which measur
 1. Install Espressif IDE including ESP-IDF and all dependencies.
 2. Build the code onto the launch target, esp32c3.
 3. Libraries included in the code were from:
-        **a. Example ESP-IDF WiFi Provisioning Manager**
-        - Example ESP-IDF NMEA GPS Parser  
-        - Example ESP-IDF SD SPI   
-        - Example ESP-IDF MQTT-TLS
-        - Sensirion SEN5x driver (https://github.com/Sensirion/embedded-i2c-sen5x)
+   Example ESP-IDF WiFi Provisioning Manager
+   Example ESP-IDF NMEA GPS Parser  
+   Example ESP-IDF SD SPI   
+   Example ESP-IDF MQTT-TLS
+   Sensirion SEN5x driver (https://github.com/Sensirion/embedded-i2c-sen5x)
         - MHZ19 driver (https://github.com/crisap94/MHZ19/tree/master)
-4. Configure Access_Key to your access key in User Information
+5. Configure Access_Key to your access key in User Information
 
