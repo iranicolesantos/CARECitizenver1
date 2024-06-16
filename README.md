@@ -22,7 +22,7 @@ This page contains the firmware for the CARE Citizen node which measures Relativ
    - WiFiManager by tzapu
    - Arduinojson by Benoit Blanchon
    - ESPSoftwareSerial by Dirk Kaar, Peter Lerup
-4. Configure Access_Key to your access key in User Information
+4. **Configure** ```Access_Key``` to your access key in User Information
 
 ## Installation ESP-IDF Ver
 1. Install Espressif IDE including ESP-IDF and all dependencies.
@@ -34,5 +34,5 @@ This page contains the firmware for the CARE Citizen node which measures Relativ
    - Example ESP-IDF MQTT-TLS
    - Sensirion SEN5x driver (https://github.com/Sensirion/embedded-i2c-sen5x)
    - MHZ19 driver (https://github.com/UncleRus/esp-idf-lib/tree/master/components/mhz19b)
-4. Configure Access_Key to your access key in User Information
+4. **Configure** ```Access_Key``` to your access key in User Information
 
